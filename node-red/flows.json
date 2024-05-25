@@ -1,0 +1,54 @@
+[
+    {
+        "id": "7fde15fb8dcdf9af",
+        "type": "mqtt in",
+        "z": "99ad1155b3620411",
+        "name": "Humidity Output",
+        "topic": "UoP/CO/326/E18/01/dht11/hum",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "780ad117627eab2e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 760,
+        "wires": [
+            [
+                "d8e7e0e000f91f34",
+                "a70d376b9d7bed8c",
+                "400449e491c1fd58",
+                "c22fcf825d9819f5",
+                "5c45c19eb9fa92b6"
+            ]
+        ]
+    },
+    {
+        "id": "780ad117627eab2e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

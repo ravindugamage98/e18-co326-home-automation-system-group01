@@ -1,0 +1,30 @@
+{
+    "team": [
+        {
+            "name": "Kavinda Karunarathna",
+            "email": "e18170@eng.pdn.ac.lk",
+            "eNumber": "E/18/170"
+        },
+        {
+            "name": "Shehan Madhusanka",
+            "email": "e18203@eng.pdn.ac.lk",
+            "eNumber": "E/18/203"
+        },
+        {
+            "name": "Ravindu Mihiranga",
+            "email": "e18224@eng.pdn.ac.lk",
+            "eNumber": "E/18/224"
+        }
+    ],
+    "supervisors": [
+        {
+            "name": "Dr. Eng. Kamalanath Samarakoon",
+            "email": "kamalanath@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Supervisor 2",
+            "email": "email@eng.pdn.ac.lk"
+        }
+    ],
+    "tags": ["Computer Systems Engineering", "Industrial Networks"]
+}
